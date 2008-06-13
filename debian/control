@@ -1,13 +1,13 @@
 Source: python-minimock
 Priority: extra
 Maintainer: Ben Finney <ben+debian@benfinney.id.au>
-Section: devel
+Section: python
 Homepage: http://pypi.python.org/pypi/MiniMock
 VCS-bzr: http://bzr.debian.org/collab-maint/python-minimock/
 Build-Depends: debhelper (>= 7.0.8),
     python-central (>= 0.5.6),
     python-all-dev (>= 2.3.5-11)
-Standards-Version: 3.8.0
+Standards-Version: 3.7.3
 XS-Python-Version: all
 
 Package: python-minimock
