@@ -1,5 +1,5 @@
-python-minimock (0.8-1) UNRELEASED; urgency=low
+python-minimock (0.8-1) unstable; urgency=low
 
   * Initial release (Closes: #486019)
 
- -- Ben Finney <ben+debian@benfinney.id.au>  Fri, 13 Jun 2008 12:26:03 +1000
+ -- Ben Finney <ben+debian@benfinney.id.au>  Fri, 13 Jun 2008 12:50:30 +1000
