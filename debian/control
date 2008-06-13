@@ -8,13 +8,12 @@ VCS-bzr: http://bzr.debian.org/collab-maint/python-minimock/
 Build-Depends: debhelper (>= 7.0.8),
     python-central (>= 0.6.7),
     python-all-dev (>= 2.3.5-11)
-Standards-Version: 3.7.3
+Standards-Version: 3.8.0
 XS-Python-Version: all
 
 Package: python-minimock
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
-XB-Python-Version: ${python:Versions}
 Description: simple library for Python mock objects
  minimock is a simple Python library for using mock objects.
  .
