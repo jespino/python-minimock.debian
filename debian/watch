@@ -1,0 +1,9 @@
+# debian/watch
+# Debian uscan file for python-minimock package
+# Manpage: uscan(1)
+
+# Compulsory line, this is a version 3 file
+version=3
+
+# Current version from Python cheeseshop
+http://pypi.python.org/packages/source/M/MiniMock/MiniMock-(.*).tar.gz

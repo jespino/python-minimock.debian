@@ -1,0 +1,28 @@
+Source: python-minimock
+Priority: extra
+Maintainer: Ben Finney <ben+debian@benfinney.id.au>
+Section: devel
+Homepage: http://pypi.python.org/pypi/MiniMock
+VCS-bzr: http://bzr.debian.org/collab-maint/python-minimock/
+Build-Depends: debhelper (>= 7.0.8),
+    python-central (>= 0.5.6),
+    python-all-dev (>= 2.3.5-11)
+Standards-Version: 3.8.0
+XS-Python-Version: all
+
+Package: python-minimock
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+XB-Python-Version: ${python:Versions}
+Description: simple library for Python mock objects
+ minimock is a simple Python library for using mock objects.
+ .
+ Its mock objects will report any access made to the mock object's
+ interfaces. By using the standard-library 'doctest' module, the
+ programmer can easily make assertions about how mock objects are
+ used by matching the reported access against expected behaviour.
+ .
+ Mock objects can return specified values, raise exceptions, etc.
+ to simulate the mocked behaviour. Existing objects can optionally
+ be replaced in-place in their namespace by a mock object, and
+ restored safely after testing.
