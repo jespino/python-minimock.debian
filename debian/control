@@ -1,6 +1,7 @@
 Source: python-minimock
 Priority: extra
 Maintainer: Ben Finney <ben+debian@benfinney.id.au>
+DM-Upload-Allowed: yes
 Section: python
 Homepage: http://pypi.python.org/pypi/MiniMock
 VCS-bzr: http://bzr.debian.org/collab-maint/python-minimock/
