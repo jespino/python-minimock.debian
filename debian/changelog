@@ -1,5 +1,14 @@
+python-minimock (0.8-2) unstable; urgency=low
+
+  * Set DM-Upload-Allowed control field.
+  * Build-Depends on newer python-central:
+    + Allows better debhelper 7 support.
+    + Update other control files accordingly.
+
+ -- Ben Finney <ben+debian@benfinney.id.au>  Fri, 13 Jun 2008 18:31:25 +1000
+
 python-minimock (0.8-1) unstable; urgency=low
 
-  * Initial release (Closes: #486019)
+  * Initial release (Closes: #486019).
 
  -- Ben Finney <ben+debian@benfinney.id.au>  Fri, 13 Jun 2008 12:50:30 +1000
