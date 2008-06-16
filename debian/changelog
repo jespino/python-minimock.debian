@@ -1,3 +1,11 @@
+python-minimock (0.8-3) UNRELEASED; urgency=low
+
+  * debian/rules
+    + Fix packaging to generate only actually-needed dependencies (stop
+      pulling in 'python-support' needlessly)
+
+ -- Ben Finney <ben+debian@benfinney.id.au>  Mon, 16 Jun 2008 17:58:04 +1000
+
 python-minimock (0.8-2) unstable; urgency=low
 
   * debian/control
