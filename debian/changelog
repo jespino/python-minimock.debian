@@ -1,4 +1,4 @@
-python-minimock (0.8-3) UNRELEASED; urgency=low
+python-minimock (0.8-3) unstable; urgency=low
 
   * debian/rules
     + Fix packaging to generate only actually-needed dependencies (stop
