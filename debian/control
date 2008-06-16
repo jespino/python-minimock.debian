@@ -14,6 +14,7 @@ XS-Python-Version: all
 Package: python-minimock
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
+XB-Python-Version: ${python:Versions}
 Description: simple library for Python mock objects
  minimock is a simple Python library for using mock objects.
  .
