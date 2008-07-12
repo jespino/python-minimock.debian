@@ -1,3 +1,14 @@
+python-minimock (0.8-5) unstable; urgency=medium
+
+  * debian/rules
+    + Fix a FTBFS: Ensure package builds on the buildd environment, by not
+      mentioning 'python-support' at all (closes: bug#490315).
+  * debian/control
+    + Build-Depends-Indep: python-central >= 0.6.8, debhelper >= 7.0.14 to
+      correctly manipulate the 'dh' sequences.
+
+ -- Ben Finney <ben+debian@benfinney.id.au>  Sat, 12 Jul 2008 10:44:05 +1000
+
 python-minimock (0.8-4) unstable; urgency=low
 
   * Add missing Build-Depends: python-setuptools (Closes: Bug#486958).

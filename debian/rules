@@ -23,13 +23,11 @@ clean:
 
 .PHONY: install
 install: build
-	dh --with python_central install --before pysupport
-	dh --with python_central install --after pysupport
+	dh --with python_central install
 
 .PHONY: binary-indep
 binary-indep: build install
-	dh --with python_central binary-indep --before pysupport
-	dh --with python_central binary-indep --after pysupport
+	dh --with python_central binary-indep
 
 .PHONY: binary-arch
 binary-arch: build install
