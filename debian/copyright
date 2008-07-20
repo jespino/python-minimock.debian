@@ -1,7 +1,10 @@
-Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=131
+Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=196
+Upstream-Name: MiniMock
 Upstream-Maintainer: Ian Bicking <ianb@colorstudy.com>
+Upstream-Source:
+    http://pypi.python.org/packages/source/M/MiniMock/MiniMock-0.9.tar.gz
 Packaged-By: Ben Finney <ben+debian@benfinney.id.au>
-Packaged-Date: Fri, 13 Jun 2008 11:27:34 +1000
+Packaged-Date: Mon, 21 Jul 2008 08:27:47 +1000
 
 Files: *
 Copyright:
