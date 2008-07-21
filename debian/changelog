@@ -1,3 +1,10 @@
+python-minimock (0.9-2) UNRELEASED; urgency=low
+
+  * debian/copyright
+    + Update fields to latest draft format version.
+
+ --
+
 python-minimock (0.9-1) unstable; urgency=low
 
   * New upstream version.
