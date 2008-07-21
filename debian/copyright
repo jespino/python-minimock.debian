@@ -1,4 +1,5 @@
-Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=196
+Format-Specification:
+    http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=202
 Upstream-Name: MiniMock
 Upstream-Maintainer: Ian Bicking <ianb@colorstudy.com>
 Upstream-Source:
