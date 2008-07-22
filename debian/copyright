@@ -1,17 +1,14 @@
 Format-Specification:
-    http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=202
+    http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=214
 Upstream-Name: MiniMock
 Upstream-Maintainer: Ian Bicking <ianb@colorstudy.com>
 Upstream-Source:
     http://pypi.python.org/packages/source/M/MiniMock/MiniMock-0.9.tar.gz
 
 Files: *
-Copyright:
-    © 2006 Ian Bicking, Mike Beachy, and contributors
-    © 2007 Ian Bicking and Contributors
+Copyright: © 2006 Ian Bicking, Mike Beachy, and contributors
+Copyright: © 2007 Ian Bicking and Contributors
 License: Expat
-    Copyright (c) 2007 Ian Bicking and Contributors
-    .
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -32,8 +29,7 @@ License: Expat
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Files: debian/*
-Copyright:
-    © 2008 Ben Finney <ben+debian@benfinney.id.au>
+Copyright: © 2008 Ben Finney <ben+debian@benfinney.id.au>
 License: GPL-2+
     # This is free software; you may copy, modify and/or distribute this work
     # under the terms of the GNU General Public License, version 2 or later.
