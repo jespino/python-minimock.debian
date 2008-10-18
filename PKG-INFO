@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: MiniMock
-Version: 0.9
+Version: 1.0
 Summary: The simplest possible mock library
 Home-page: http://pypi.python.org/pypi/MiniMock
 Author: Ian Bicking
@@ -141,6 +141,15 @@ Description: MiniMock
         
         News
         ----
+        
+        1.0
+        ---
+        
+        * Fixed setting special attributes like ``mock_returns`` on
+        already-created Mock objects (from Toby White)
+        
+        * Separated out printing to a class that accepts call information
+        and provided an implementation that prints calls to a file.
         
         0.9
         ---
