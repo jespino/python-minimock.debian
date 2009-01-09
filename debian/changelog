@@ -1,11 +1,11 @@
-python-minimock (1.0-1) UNRELEASED; urgency=low
+python-minimock (1.0-1) unstable; urgency=low
 
   * New upstream version.
   * debian/copyright:
     + Update fields to latest draft format version.
     + Wrap 'Format-Specification' field to observe line-length limit.
 
- -- Ben Finney <ben+debian@benfinney.id.au>  Sat, 18 Oct 2008 11:03:40 +1100
+ -- Ben Finney <ben+debian@benfinney.id.au>  Fri, 09 Jan 2009 19:59:36 +1100
 
 python-minimock (0.9-1) unstable; urgency=low
 
