@@ -1,3 +1,11 @@
+python-minimock (1.2.1-1) UNRELEASED; urgency=low
+
+  * New upstream version.
+    + ‘mock’ now also searches built-in namespace by default.
+    + New mock trackers.
+
+ --
+
 python-minimock (1.0-1) unstable; urgency=low
 
   * New upstream version.
