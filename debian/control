@@ -6,8 +6,7 @@ Homepage: http://pypi.python.org/pypi/MiniMock
 VCS-bzr: http://bzr.debian.org/collab-maint/python-minimock/
 Build-Depends: debhelper (>= 7.0.14),
     python-central (>= 0.6.8),
-    python-setuptools,
-    python-all-dev (>= 2.3.5-11)
+    python-setuptools
 Standards-Version: 3.8.1
 XS-Python-Version: all
 
