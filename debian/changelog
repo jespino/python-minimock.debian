@@ -1,10 +1,12 @@
-python-minimock (1.2.1-1) UNRELEASED; urgency=low
+python-minimock (1.2.1-1) unstable; urgency=low
 
   * New upstream version.
     + ‘mock’ now also searches built-in namespace by default.
     + New mock trackers.
+  * debian/control:
+    + Conform package to ‘Standards-Version: 3.8.1’.
 
- --
+ -- Ben Finney <ben+debian@benfinney.id.au>  Fri, 20 Mar 2009 22:49:57 +1100
 
 python-minimock (1.0-1) unstable; urgency=low
 
