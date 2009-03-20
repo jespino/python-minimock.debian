@@ -1,7 +1,7 @@
 python-minimock (1.2.1-2) UNRELEASED; urgency=low
 
   * debian/control:
-    + Remove superfluous ‘Build-Depends: python-dev-all’.
+    + ‘Build-Depends: python’ instead of ‘python-dev-all’.
 
  --
 
