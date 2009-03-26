@@ -23,9 +23,7 @@ clean:
 
 .PHONY: install
 install: build
-	dh --with python_central install --until installchangelogs
-	dh_installchangelogs -k docs/changelog.txt
-	dh --with python_central install --remaining
+	dh --with python_central install
 
 .PHONY: binary-indep
 binary-indep: build install
@@ -36,3 +34,7 @@ binary-arch: build install
 
 .PHONY: binary
 binary: build binary-indep binary-arch
+
+.PHONY: override_dh_installchangelogs
+override_dh_installchangelogs:
+	dh_installchangelogs -k docs/changelog.txt

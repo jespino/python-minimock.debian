@@ -1,3 +1,10 @@
+python-minimock (1.2.2-2) UNRELEASED; urgency=low
+
+  * debian/control, debian/rules:
+    + Use nicer override handling from later ‘debhelper’ version.
+
+ --
+
 python-minimock (1.2.2-1) unstable; urgency=low
 
   * New upstream version.
