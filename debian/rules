@@ -1,5 +1,4 @@
 #! /usr/bin/make -f
-# -*- makefile; coding: utf-8 -*-
 #
 # debian/rules
 #
@@ -23,11 +22,11 @@ clean:
 
 .PHONY: install
 install: build
-	dh --with python_central install
+	dh install
 
 .PHONY: binary-indep
 binary-indep: build install
-	dh --with python_central binary-indep
+	dh binary-indep
 
 .PHONY: binary-arch
 binary-arch: build install
@@ -38,3 +37,10 @@ binary: build binary-indep binary-arch
 .PHONY: override_dh_installchangelogs
 override_dh_installchangelogs:
 	dh_installchangelogs -k docs/changelog.txt
+
+
+# Local variables:
+# mode: makefile
+# coding: utf-8
+# End:
+# vim: filetype=make fileencoding=utf-8 :

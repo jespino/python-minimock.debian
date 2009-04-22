@@ -4,6 +4,7 @@ python-minimock (1.2.3-1) UNRELEASED; urgency=low
     + Can now suppress tracking for a Mock instance by specifying
       ‘tracker=None’.
   * debian/control, debian/rules:
+    + Switch to ‘python-support’ for Python packaging.
     + Use nicer override handling from later ‘debhelper’ version.
 
  --
