@@ -1,4 +1,4 @@
-python-minimock (1.2.3-1) UNRELEASED; urgency=low
+python-minimock (1.2.3-1) unstable; urgency=low
 
   * New upstream version.
     + Can now suppress tracking for a Mock instance by specifying
@@ -7,7 +7,7 @@ python-minimock (1.2.3-1) UNRELEASED; urgency=low
     + Switch to ‘python-support’ for Python packaging.
     + Use nicer override handling from later ‘debhelper’ version.
 
- --
+ -- Ben Finney <ben+debian@benfinney.id.au>  Thu, 23 Apr 2009 10:33:44 +1000
 
 python-minimock (1.2.2-1) unstable; urgency=low
 
