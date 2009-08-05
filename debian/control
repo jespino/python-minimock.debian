@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 7.0.50),
     python-support (>= 0.90),
     python-setuptools,
     python
-Standards-Version: 3.8.1
+Standards-Version: 3.8.2
 
 Package: python-minimock
 Architecture: all
@@ -18,7 +18,7 @@ Description: simple library for Python mock objects
  minimock is a simple Python library for using mock objects.
  .
  Its mock objects will report any access made to the mock object's
- interfaces. By using the standard-library 'doctest' module, the
+ interfaces. By using the standard-library ‘doctest’ module, the
  programmer can easily make assertions about how mock objects are
  used by matching the reported access against expected behaviour.
  .

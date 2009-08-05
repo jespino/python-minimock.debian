@@ -1,9 +1,11 @@
-python-minimock (1.2.5-1) unstable; urgency=low
+python-minimock (1.2.5-1) UNRELEASED; urgency=low
 
   * New upstream version:
     + Deprecate MockTracker. TraceTracker should be used instead.
+  * debian/control:
+    + Update to ‘Standards-Version: 3.8.2’. No changes required.
 
- -- Ben Finney <ben+debian@benfinney.id.au>  Wed, 05 Aug 2009 16:23:44 +1000
+ --
 
 python-minimock (1.2.3-1) unstable; urgency=low
 
