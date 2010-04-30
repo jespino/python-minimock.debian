@@ -4,6 +4,8 @@ python-minimock (1.2.5-2) UNRELEASED; urgency=low
     + Declare “Standards-Version: 3.8.4”. No further changes needed.
     + Specify the ‘VCS-Browser’ URL.
     + Clarify package description.
+    + Set “Priority: optional” to allow other common packages to depend on
+      this one.
 
  --
 

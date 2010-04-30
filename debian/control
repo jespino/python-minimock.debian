@@ -1,5 +1,5 @@
 Source: python-minimock
-Priority: extra
+Priority: optional
 Maintainer: Ben Finney <ben+debian@benfinney.id.au>
 Section: python
 Homepage: http://pypi.python.org/pypi/MiniMock
