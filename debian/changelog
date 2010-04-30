@@ -1,3 +1,10 @@
+python-minimock (1.2.5-2) UNRELEASED; urgency=low
+
+  * debian/control:
+    + Declare “Standards-Version: 3.8.4”. No further changes needed.
+
+ --
+
 python-minimock (1.2.5-1) unstable; urgency=low
 
   * New upstream version:
