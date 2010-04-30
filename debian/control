@@ -4,6 +4,7 @@ Maintainer: Ben Finney <ben+debian@benfinney.id.au>
 Section: python
 Homepage: http://pypi.python.org/pypi/MiniMock
 VCS-bzr: http://bzr.debian.org/collab-maint/python-minimock/
+VCS-Browser: http://bzr.debian.org/loggerhead/collab-maint/python-minimock/python-minimock.debian/
 Build-Depends: debhelper (>= 7.0.50),
     python-support (>= 0.90),
     python-setuptools,
