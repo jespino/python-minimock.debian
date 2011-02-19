@@ -7,6 +7,8 @@ python-minimock (1.2.6-1) UNRELEASED; urgency=low
     + Bug fixes.
   * debian/docs, debian/rules:
     + Update documentation filenames to match upstream.
+  * debian/source/format:
+    + Convert packaging to source format “3.0 (quilt)”.
   * debian/control:
     + Declare “Standards-Version: 3.9.1”. No further changes needed.
     + Specify the ‘VCS-Browser’ URL.
