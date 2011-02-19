@@ -1,6 +1,7 @@
 python-minimock (1.2.6-1) UNRELEASED; urgency=low
 
   * New upstream version.
+    (Closes: bug#614123).
     + Can now change tracker on a mock object after creation.
     + Improve doctest support.
     + Bug fixes.
