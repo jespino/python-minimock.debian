@@ -5,6 +5,8 @@ python-minimock (1.2.6-1) UNRELEASED; urgency=low
     + Can now change tracker on a mock object after creation.
     + Improve doctest support.
     + Bug fixes.
+  * debian/docs, debian/rules:
+    + Update documentation filenames to match upstream.
   * debian/control:
     + Declare “Standards-Version: 3.8.4”. No further changes needed.
     + Specify the ‘VCS-Browser’ URL.

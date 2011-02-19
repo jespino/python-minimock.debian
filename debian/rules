@@ -36,7 +36,7 @@ binary: build binary-indep binary-arch
 
 .PHONY: override_dh_installchangelogs
 override_dh_installchangelogs:
-	dh_installchangelogs -k docs/changelog.txt
+	dh_installchangelogs -k docs/changelog.rst
 
 
 # Local variables:
