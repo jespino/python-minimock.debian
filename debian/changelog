@@ -8,7 +8,7 @@ python-minimock (1.2.6-1) UNRELEASED; urgency=low
   * debian/docs, debian/rules:
     + Update documentation filenames to match upstream.
   * debian/control:
-    + Declare “Standards-Version: 3.8.4”. No further changes needed.
+    + Declare “Standards-Version: 3.9.1”. No further changes needed.
     + Specify the ‘VCS-Browser’ URL.
     + Clarify package description.
     + Set “Priority: optional” to allow other common packages to depend on
