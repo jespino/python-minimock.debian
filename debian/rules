@@ -2,7 +2,7 @@
 #
 # debian/rules
 #
-# Copyright © 2008–2009 Ben Finney <ben+debian@benfinney.id.au>
+# Copyright © 2008–2011 Ben Finney <ben+debian@benfinney.id.au>
 # This is free software; you may copy, modify and/or distribute this work
 # under the terms of the GNU General Public License, version 2 or later.
 # No warranty expressed or implied.
@@ -14,19 +14,19 @@
 
 .PHONY: build
 build:
-	dh build
+	dh build --with python2
 
 .PHONY: clean
 clean:
-	dh clean
+	dh clean --with python2
 
 .PHONY: install
 install: build
-	dh install
+	dh install --with python2
 
 .PHONY: binary-indep
 binary-indep: build install
-	dh binary-indep
+	dh binary-indep --with python2
 
 .PHONY: binary-arch
 binary-arch: build install
