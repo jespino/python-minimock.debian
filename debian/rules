@@ -1,6 +1,7 @@
 #! /usr/bin/make -f
-#
+
 # debian/rules
+# Part of Debian ‘python-minimock’ package.
 #
 # Copyright © 2008–2011 Ben Finney <ben+debian@benfinney.id.au>
 # This is free software; you may copy, modify and/or distribute this work
@@ -8,31 +9,40 @@
 # No warranty expressed or implied.
 # See the file ‘/usr/share/common-licenses/GPL-2’ for details.
 
-# Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
-
 
 .PHONY: build
-build:
-	dh build --with python2
+build: build-indep build-arch
+	dh $@ --with python2
+
+.PHONY: build-indep
+build-indep:
+	dh $@ --with python2
+
+.PHONY: build-arch
+build-arch:
+	dh $@ --with python2
+
 
 .PHONY: clean
 clean:
-	dh clean --with python2
+	dh $@ --with python2
+
 
 .PHONY: install
 install: build
-	dh install --with python2
+	dh $@ --with python2
+
 
 .PHONY: binary-indep
 binary-indep: build install
-	dh binary-indep --with python2
+	dh $@ --with python2
 
 .PHONY: binary-arch
 binary-arch: build install
 
 .PHONY: binary
 binary: build binary-indep binary-arch
+
 
 .PHONY: override_dh_installchangelogs
 override_dh_installchangelogs:

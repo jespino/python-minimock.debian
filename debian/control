@@ -5,9 +5,10 @@ Section: python
 Homepage: http://pypi.python.org/pypi/MiniMock
 VCS-bzr: http://bzr.debian.org/collab-maint/python-minimock/
 VCS-Browser: http://bzr.debian.org/loggerhead/collab-maint/python-minimock/python-minimock.debian/
-Build-Depends: debhelper (>= 7.0.50),
+Build-Depends:
+    debhelper (>= 8.1),
     python-setuptools,
-    python (>= 2.6.6-3)
+    python (>= 2.6.6-3~)
 Standards-Version: 3.9.1
 
 Package: python-minimock
