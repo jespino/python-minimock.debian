@@ -2,6 +2,7 @@ python-minimock (1.2.6-2) UNRELEASED; urgency=low
 
   * debian/control:
     + Declare “Standards-Version: 3.9.2”.
+    + Update ‘VCS-*’ fields for new Alioth layout.
   * debian/control, debian/rules:
     + Convert to ‘dh_python2’ packaging helper.
     + Add recommended build targets.
