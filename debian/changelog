@@ -4,6 +4,8 @@ python-minimock (1.2.6-2) UNRELEASED; urgency=low
     + Convert to ‘dh_python2’ packaging helper.
     + Add recommended build targets.
     + Increase minimum Debhelper version to support new targets.
+  * debian/watch:
+    + Refine upstream URL regex in line with current ‘uscan’ recommendations.
 
  --
 
