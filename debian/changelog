@@ -1,5 +1,6 @@
-python-minimock (1.2.6-2) UNRELEASED; urgency=low
+python-minimock (1.2.6-2) unstable; urgency=low
 
+  * The “Ingersoll” release.
   * debian/control:
     + Declare “Standards-Version: 3.9.2”.
     + Update ‘VCS-*’ fields for new Alioth layout.
@@ -10,7 +11,7 @@ python-minimock (1.2.6-2) UNRELEASED; urgency=low
   * debian/watch:
     + Refine upstream URL regex in line with current ‘uscan’ recommendations.
 
- --
+ -- Ben Finney <ben+debian@benfinney.id.au>  Sun, 31 Jul 2011 20:30:58 +1000
 
 python-minimock (1.2.6-1) unstable; urgency=low
 
