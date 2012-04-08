@@ -1,5 +1,6 @@
-python-minimock (1.2.7-1) UNRELEASED; urgency=low
+python-minimock (1.2.7-1) unstable; urgency=low
 
+  * The “Sliding Days” release.
   * New upstream version.
     (Closes: bug#638579).
   * debian/control:
@@ -8,7 +9,7 @@ python-minimock (1.2.7-1) UNRELEASED; urgency=low
     + Conform to copyright format version 1.0.
     + Update copyright information.
 
- --
+ -- Ben Finney <ben+debian@benfinney.id.au>  Sun, 08 Apr 2012 17:08:51 +1000
 
 python-minimock (1.2.6-2) unstable; urgency=low
 
