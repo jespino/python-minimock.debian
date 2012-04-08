@@ -2,6 +2,8 @@ python-minimock (1.2.7-1) UNRELEASED; urgency=low
 
   * New upstream version.
     (Closes: bug#638579).
+  * debian/control:
+    + Declare “Standards-Version: 3.9.3”. No additional changes required.
 
  --
 
