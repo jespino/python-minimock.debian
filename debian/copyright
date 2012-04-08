@@ -1,10 +1,11 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: MiniMock
-Upstream-Contact: Ian Bicking <ianb@colorstudy.com>
+Upstream-Contact: Joshua Bronson <jabronson@gmail.com>
 Source: http://pypi.python.org/packages/source/M/MiniMock/
 
 Files: *
 Copyright:
+    © 2009–2011 Joshua Bronson
     © 2007–2009 Ian Bicking and contributors
     © 2006 Ian Bicking, Mike Beachy, and contributors
 License: Expat
