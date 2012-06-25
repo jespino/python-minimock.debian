@@ -1,6 +1,6 @@
 Source: python-minimock
 Priority: optional
-Maintainer: Ben Finney <ben+debian@benfinney.id.au>
+Maintainer: Jesús Espino <jespinog@gmail.com>
 Section: python
 Homepage: http://pypi.python.org/pypi/MiniMock
 VCS-bzr: http://anonscm.debian.org/bzr/collab-maint/python-minimock/python-minimock.debian/
