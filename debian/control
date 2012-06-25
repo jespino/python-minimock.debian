@@ -3,8 +3,6 @@ Priority: optional
 Maintainer: Jesús Espino <jespinog@gmail.com>
 Section: python
 Homepage: http://pypi.python.org/pypi/MiniMock
-VCS-bzr: http://anonscm.debian.org/bzr/collab-maint/python-minimock/python-minimock.debian/
-VCS-Browser: http://anonscm.debian.org/loggerhead/collab-maint/python-minimock/python-minimock.debian/
 Build-Depends:
     debhelper (>= 8.1),
     python-setuptools,
