@@ -31,6 +31,7 @@ License: Expat
 Files: debian/*
 Copyright:
     © 2008–2012 Ben Finney <ben+debian@benfinney.id.au>
+    © 2012 Jesús Espino <jespinog@gmail.com>
 License: GPL-2+
     This is free software; you may copy, modify and/or distribute this work
     under the terms of the GNU General Public License, version 2 or later.
